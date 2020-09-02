@@ -38,7 +38,7 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: bocastle1213@gmail.com
   facebook:
   flickr:
   github: bocastle
@@ -70,7 +70,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl:
+baseurl: https://bocastle.github.io
 
 #
 # !! You don't need to change any of the configuration flags below !!
