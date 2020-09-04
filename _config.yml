@@ -3,17 +3,17 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: Bocastle_Blog
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Web study
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/aweekj/kiko-now/master/images/jekyll-logo.png
+avatar: https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/bocastle-logo.png
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
@@ -28,8 +28,8 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
+  #- name: Theme
+  #  url: https://github.com/AWEEKJ/kiko-now
 
 # Pagination
 paginate: 5
@@ -41,19 +41,19 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: bocastle
   googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
+  instagram: bo_castle
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter: #jekyllrb
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2020 Bocastle_Blog
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
