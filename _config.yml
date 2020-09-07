@@ -12,6 +12,13 @@ description: Web study
 # Flags below are optional
 #
 
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/bocastle-logo.png
 

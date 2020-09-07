@@ -3,6 +3,7 @@ layout: post
 title:  "JAVA 질문 모음."
 tags: [JAVA]
 comments: true
+use_math: true
 
 ---
 ## Java는 네트워크상에서 쓸 수 있도록 미국의 Sun마이크로시스템가 개발한 객체지향 프로그래밍 언어
