@@ -7,10 +7,14 @@ use_math: true
 
 ---
 # JSX의 기본 규칙
+
+
+## JSX의 기본 규칙 4줄요약
 * 태그는 꼭 닫혀야 한다!
 * JavaScript 값을 보여줄때는 중괄호를 사용하자. {값}
 * style을 사용할때는 객체형태
 * css를 사용할때는 className ... Name까지 작성하자
+
 ## 1. 태그는 무조건 꼭 닫아야한다.
 ```css
 function App() {
