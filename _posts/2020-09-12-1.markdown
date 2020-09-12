@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Hello React"
+tags: [React,JSX]
+comments: true
+use_math: true
+
+---
+# JSX의 기본 규칙
+* 태그는 꼭 닫혀야 한다!
+* JavaScript 값을 보여줄때는 중괄호를 사용하자. {값}
+* style을 사용할때는 객체형태
+* css를 사용할때는 className ... Name까지 작성하자
+## 1. 태그는 무조건 꼭 닫아야한다.
+```css
+function App() {
+  return (
+    <div>
+        <Hello />
+        <Hello />
+        <Hello />
+        <input />
+        <br />
+    </div>
+  );
+}
+export default App;
+```
+## 2. 2개이상의 태그는 하나의 태그로 감싸 주어야한다. 
+```css
+function App() {
+  return (
+    <>
+        <Hello />
+        <div>안녕하세요</div>
+    </>
+  );
+}
+export default App;
+```
+## 2. JSX에서 Javascript 값을 사용하는 방법 
+```css
+function App() {
+  const name = 'react';
+  return (
+    <>
+        <Hello />
+        <div>{name}</div>
+    </>
+  );
+}
+export default App;
+```
+## 2. Style 과 className를 설정하는 방법 
+```css
+function App() {
+  const name = 'react';
+  const style = {
+      backgroundColor: 'black',
+      color: 'aqua',
+      fontSize: 24,
+      padding: '1rem'
+  }
+  return (
+    <>
+        <Hello />
+        <div style={style}>{name}</div>
+        <div className="className-사용하기"></div>
+    </>
+  );
+}
+export default App;
+```
+## 2. JSX 주석 사용방법
+```css
+function App() {
+  const name = 'react';
+  return (
+    <>
+        {/* 주석에는 중괄호를 사용하세요 */}
+        <Hello 
+            //이런식으로 작성하는 주석도 가능
+        />
+        <div>{name}</div>
+    </>
+  );
+}
+export default App;
+```
