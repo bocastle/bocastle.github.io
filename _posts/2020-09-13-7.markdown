@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React_props"
-tags: [React,JSX]
+tags: [React,props]
 comments: true
 use_math: true
 
