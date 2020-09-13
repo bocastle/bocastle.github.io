@@ -42,7 +42,7 @@ function App() {
 }
 export default App;
 ```
-## 2. JSX에서 Javascript 값을 사용하는 방법 
+## 3. JSX에서 Javascript 값을 사용하는 방법 
 ```css
 function App() {
   const name = 'react';
@@ -55,7 +55,7 @@ function App() {
 }
 export default App;
 ```
-## 2. Style 과 className를 설정하는 방법 
+## 4. Style 과 className를 설정하는 방법 
 ```css
 function App() {
   const name = 'react';
@@ -75,7 +75,7 @@ function App() {
 }
 export default App;
 ```
-## 2. JSX 주석 사용방법
+## 5. JSX 주석 사용방법
 ```css
 function App() {
   const name = 'react';

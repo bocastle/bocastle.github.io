@@ -1,0 +1,121 @@
+---
+layout: post
+title:  "React_props"
+tags: [React,JSX]
+comments: true
+use_math: true
+
+---
+# props 사용법
+
+
+
+## App.js.
+```css
+import React from 'react';
+import Hello from './Hello';
+
+  function App(){
+    return(
+      <Hello name="react" color="red"/>
+    )
+  }
+export default App;
+```
+## Hello.js. 
+```css
+import React from 'react';
+
+function Hello(props) {
+  console.log(props);
+  return(
+    <div style={{color: props.color}}>
+      안녕하세요. {props.name}
+    </div>
+  );
+}
+export default Hello;
+```
+## Hello.js. 
+```css
+import React from 'react';
+
+function Hello( color, name) {
+ 
+  return(
+    <div style={{color}}> 
+      안녕하세요. {name}
+    </div>
+  );
+}
+export default Hello;
+```
+---
+## defualtProps 방법
+## Hello.js. 
+```css
+import React from 'react';
+
+function Hello( color, name) {
+ 
+  return(
+    <div style={{color}}> 
+      안녕하세요. {name}
+    </div>
+  );
+}
+Hello.defualtProps ={
+  nema: '이름없음'
+}
+export default Hello;
+```
+## App.js.
+```css
+import React from 'react';
+import Hello from './Hello';
+
+  function App(){
+    return(
+      <>
+      <Hello name="react" color="red"/>
+      <Hello color="pink"/>
+      </>
+    );
+  }
+```
+export default App;
+
+---
+
+## childrenProps 방법
+## Hello.js. 
+```css
+import React from 'react';
+
+function Wrapper({ children }) {
+  const style ={
+    border: '2px solid black',
+    padding: 16
+  };
+  return(
+    <div style={style}>{children}</div>
+  );
+}
+export default Wrapper;
+```
+## App.js.
+```css
+import React from 'react';
+import Hello from './Hello';
+import Wrapper from './Wrapper';
+
+  function App(){
+    return(
+      <Wrapper>
+        <Hello name="react" color="red"/>
+        <Hello color="pink"/>
+      </Wrapper>
+    );
+  }
+```
+export default App;
