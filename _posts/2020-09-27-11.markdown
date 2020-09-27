@@ -9,20 +9,20 @@ use_math: true
 # 스트레스를 바라보는 시각
 
 
-![stress1](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/1.jpg/800x400)
+![1](https://user-images.githubusercontent.com/62016657/94358916-15e57b80-00df-11eb-9413-bb0ba9870bc2.jpg)
 
-![stress2](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/2.jpg/800x400)
+![2](https://user-images.githubusercontent.com/62016657/94358943-2e559600-00df-11eb-9e18-ad7bd056f65a.jpg)
 
-![stress3](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/3.jpg/800x400)
+![3](https://user-images.githubusercontent.com/62016657/94358951-36add100-00df-11eb-815d-a8afb96f70a0.jpg)
 
-![stress4](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/4.jpg/800x400)
+![4](https://user-images.githubusercontent.com/62016657/94358966-42999300-00df-11eb-939d-37a04fe529f0.jpg)
 
-![stress5](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/5.jpg/800x400)
+![5](https://user-images.githubusercontent.com/62016657/94358967-42999300-00df-11eb-8da5-8e9d54242434.jpg)
 
-![stress6](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/6.jpg/800x400)
+![6](https://user-images.githubusercontent.com/62016657/94358969-43322980-00df-11eb-9f90-a17d64efea59.jpg)
 
-![stress7](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/7.jpg/800x400)
+![7](https://user-images.githubusercontent.com/62016657/94358962-40cfcf80-00df-11eb-8576-0a886b3dfa41.jpg)
 
-![stress8](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/8.jpg/800x400)
+![8](https://user-images.githubusercontent.com/62016657/94358964-4200fc80-00df-11eb-951a-f955f619e2e3.jpg)
 
-![stress9](https://raw.githubusercontent.com/bocastle/bocastle.github.io/master/images/9.jpg/800x400)
+![9](https://user-images.githubusercontent.com/62016657/94358965-4200fc80-00df-11eb-9d68-59f515a1b390.jpg)
