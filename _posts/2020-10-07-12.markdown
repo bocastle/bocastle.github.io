@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "#Docker"
+tags: [Docker,도커]
+comments: true
+use_math: true
+
+---
+# docker 설치 
+
+
+### 리눅스 자동 설치 스크립트
+```css
+$ sudo wget -qO- https://get.docker.com/ | sh
+
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+$ sh get-docker.sh
+```
+
+### 우분투
+
+
+```css
+$ sudo apt-get update
+$ sudo apt-get install docker.io
+$ sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
+```
+
+### 이미지 목록 보기
+```css
+$ sudo docker images
+```
+
+### 이미지 검색
+```css
+$ sudo docker search [이미지 이름]
+```
+### 이미지 받기
+```css
+$ sudo docker pull [이미지 이름]:[버전]
+```
+### 이미지 삭제
+```css
+$ sudo docker rmi [이미지 id]
+컨테이너를 삭제하기 전에 이미지를 삭제 할때, -f 옵션을 붙어면 컨테이너도 강제 삭제가 가능하다.
+$ sudo docker rmi -f [이미지 id]
+```
+### 컨테이너 목록 보기
+```css
+$ sudo docker ps
+옵션 -a : 모든 컨테이너 목록 출력
+
+```
+### 컨테이너 시작
+```css
+$ sudo docker start [컨테이너 id 또는 name]
+```
+### 컨테이너 재시작
+```css
+$ $ sudo docker restart [컨테이너 id 또는 name]
+```
+### 컨테이너 접속
+```css
+$ sudo docker attach [컨테이너 id 또는 name]
+```
+### 컨테이너 정지
+```css
+$ sudo docker stop [컨테이너 id 또는 name]
+```
+### sudo 없이 Docker 명령어 쓰기
+```css
+$ sudo usermod -aG docker $USER # 현재 접속중인 사용자에게 권한주기
+
+$ sudo usermod -aG docker your-user # your-user 사용자에게 권한주기
+
+사용자가 로그인 중 일 때, 다시 로그인하면 권한이 적용된다. 
+$ sudo reboot now
+```
