@@ -1,78 +1,31 @@
 ---
 layout: post
-title:  "#Docker"
-tags: [Docker,도커]
+title:  "#어도비 XD 추천 플러그인"
+tags: [어도비,XD, 플러그인, 추천]
 comments: true
 use_math: true
 
 ---
-# docker 설치 
+# 어도비 XD 추천 플러그인
 
 
-### 리눅스 자동 설치 스크립트
-```css
-$ sudo wget -qO- https://get.docker.com/ | sh
+### 워크플로우의 가속화 및 자동화를 구현하는 강력한 플러그인
+1. Artboard Plus => 아트보드 재정렬
+2. Lorem Ipsum => 더미 텍스트 생성기
+3. UI Faces => 아바타를 생성 원하는 타입 
+4. User Profile => 아바타를 생성 원하는 타입
+5. Unsplash Random Image => Unsplash에 있는 무료 이미지를 랜덤으로 추가
+6. PhotoSplash => Unsplash에 있는 무료 이미지를 선택가능
+7. Web Export => 아트보드를 HTML, CSS 보내기 가능
+8. Icondrop by Iconscout => 아이콘을 바로 사용할 수 있는 플러그인
+9. App Icon Generator => 앱 아이콘을 플랫폼 사이즈별로 생성해주는 플러그인
+10. Color Blender => 첫 번째 색상 마지막 색상을 지정하면 중간 색상을 블렌드해주는 플러그인
+11. Color Designer => 컬러를 생성해두면 컬러 리스트가 뽑혀서 추가할 수 있음
+12. Mimic => 도메인을 입력하면 그 페이지에 관련된 컬러, 폰트, 목업 컨텐츠를 추출하여 참고 할 수 있음
+13. Calendar => 아트보드를 클릭 후 캘린더 생성
+14. Convert Shape => 도형을 변환할 수 있음
+15. Artboard for PDF => 아트보드를 PDF 파일로 내보낼 수 있다
+16. Custom Export => 선택한 레이어 및 아트보드를 원하는 크기로 내보기 가능
+17. Notes and Annotations => 노트나 주석 달기 좋음
 
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sh get-docker.sh
-```
-
-### 우분투
-
-
-```css
-$ sudo apt-get update
-$ sudo apt-get install docker.io
-$ sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
-```
-
-### 이미지 목록 보기
-```css
-$ sudo docker images
-```
-
-### 이미지 검색
-```css
-$ sudo docker search [이미지 이름]
-```
-### 이미지 받기
-```css
-$ sudo docker pull [이미지 이름]:[버전]
-```
-### 이미지 삭제
-```css
-$ sudo docker rmi [이미지 id]
-컨테이너를 삭제하기 전에 이미지를 삭제 할때, -f 옵션을 붙어면 컨테이너도 강제 삭제가 가능하다.
-$ sudo docker rmi -f [이미지 id]
-```
-### 컨테이너 목록 보기
-```css
-$ sudo docker ps
-옵션 -a : 모든 컨테이너 목록 출력
-
-```
-### 컨테이너 시작
-```css
-$ sudo docker start [컨테이너 id 또는 name]
-```
-### 컨테이너 재시작
-```css
-$ $ sudo docker restart [컨테이너 id 또는 name]
-```
-### 컨테이너 접속
-```css
-$ sudo docker attach [컨테이너 id 또는 name]
-```
-### 컨테이너 정지
-```css
-$ sudo docker stop [컨테이너 id 또는 name]
-```
-### sudo 없이 Docker 명령어 쓰기
-```css
-$ sudo usermod -aG docker $USER # 현재 접속중인 사용자에게 권한주기
-
-$ sudo usermod -aG docker your-user # your-user 사용자에게 권한주기
-
-사용자가 로그인 중 일 때, 다시 로그인하면 권한이 적용된다. 
-$ sudo reboot now
-```
+## 더 추가 될 예정. 2020-10-10 

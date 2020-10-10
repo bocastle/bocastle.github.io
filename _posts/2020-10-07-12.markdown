@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "#어도비 XD 추천 플러그인"
-tags: [어도비,XD, 플러그인, 추천]
+title:  "#Docker"
+tags: [Docker,도커]
 comments: true
 use_math: true
 
 ---
-# 어도비 XD 추천 플러그인
+# docker 설치 
 
 
 ### 리눅스 자동 설치 스크립트
